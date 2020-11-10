@@ -17,7 +17,7 @@ namespace Database
         private static readonly log4net.ILog Log = log4net.LogManager.GetLogger(typeof(database));
 
         public static Random rdm = new Random();
-        private static byte[] _salt = Encoding.ASCII.GetBytes("sLbQf6D-?Hu?dF{^");
+        private static byte[] _salt = Encoding.ASCII.GetBytes("cn9804n)($83m#");
         public string secret = "";
 
         private Object metricLock = new Object();
